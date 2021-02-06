@@ -669,7 +669,67 @@ a:hover {
   line-height: normal;
   letter-spacing: 0.12px;
 }
+.modal-title {
+  font-family: 'Gotham Pro',
+  sans-serif;
+  color: #292929;
+   font-size: 20px;
+   font-weight: 400;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: normal;
+   letter-spacing: 0.14px;
+   margin-top: 0;
+}
+.modal-input {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 10px;
+  margin-bottom: 13px;
+}
+.modal-button {
+  text-align: center;
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  transition: all 150ms linear;
+  font-family: 'Gotham Pro',
+  sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.14px;
+  color: #fff;
+  background-color: #f24841;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.modal-button:hover {
+  transition: all 150ms linear;
+  filter: brightness(85%);
+}
 @media (max-width: 992px) {
+  a {
+    transition: none;
+  }
+  a:hover {
+    transition: none;
+    filter: none;
+  }
+  button {
+    transition: none;
+  }
+  button:hover {
+    transition: none;
+    filter: none;
+  }
   .advantage-text {
     font-size: 17px;
   }
@@ -838,5 +898,8 @@ a:hover {
   }
   .develop, .develop-link {
     font-size: 10px;
+  }
+  .modal-title {
+    font-size: 15px;
   }
 }
